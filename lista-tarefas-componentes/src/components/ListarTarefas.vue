@@ -17,11 +17,15 @@ export default {
     tarefas: {
       type: Array,
       default() {
-        return [{ titulo: "Atividade", checked: false }];
+        return [{ titulo: "Atividade padrão", checked: false }];
       },
     },
   },
 };
 </script>
+
+<style>
+</style>
+
 
 <style>
